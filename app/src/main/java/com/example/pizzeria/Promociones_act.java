@@ -63,36 +63,32 @@ public class Promociones_act extends AppCompatActivity {
 
         if(promo.equals("Master Pizza"))
         {
-            resultado.setText("Estimado " + cliente + " el valor final es de ");
-            saldo_final.setText(resultNormal);
+            resultado.setText("Estimado " + cliente + " el valor final es de " + resultNormal);
+
         }else if(promo.equals("Master Pizza")){
 
-            resultado.setText("Estimado " + cliente + " el valor final es de ");
-            saldo_final.setText(resultNormal);
-
+            resultado.setText("Estimado " + cliente + " el valor final es de " + resultNormal);
 
         }
 
         if(promo.equals("Pizza Max"))
         {
-            resultado.setText("Estimado " + cliente + " el valor final es de ");
-            saldo_final.setText(resultPremium);
+            resultado.setText("Estimado " + cliente + " el valor final es de " + resultPremium);
+
         }else if(promo.equals("pizza max")){
 
-            resultado.setText("Estimado " + cliente + " el valor final es de ");
-            saldo_final.setText(resultPremium);
+            resultado.setText("Estimado " + cliente + " el valor final es de " + resultPremium);
 
         }
 
 
         if(promo.equals("Pizzas Promo"))
         {
-            resultado.setText("Estimado " + cliente + " el valor final es de ");
-            saldo_final.setText(resultpro);
+            resultado.setText("Estimado " + cliente + " el valor final es de " + resultpro);
+
         }else if(promo.equals("pizzas promo")){
 
-            resultado.setText("Estimado " + cliente + " el valor final es de ");
-            saldo_final.setText(resultpro);
+            resultado.setText("Estimado " + cliente + " el valor final es de " + resultpro);
 
         }
 
